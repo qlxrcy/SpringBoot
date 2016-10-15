@@ -6,6 +6,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <title>Insert title here</title>
 </head>
-<h2>Hello World! ${name}</h2>
+<h2>Hello ${name}! </h2>
+<h3>Your PassWord is ${password}</h3>
 </body>
 </html>
