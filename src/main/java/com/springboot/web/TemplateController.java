@@ -17,7 +17,7 @@ public class TemplateController {
      */
     @RequestMapping("/helloHtml")
     public String helloHtml(Map<String,Object> map){
-        map.put("hello","fromTemplateController.helloHtml");
+        map.put("hello","fromTemplateController.helloHtml...");
         return "/helloHtml";
     }
 
